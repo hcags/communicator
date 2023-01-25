@@ -1,19 +1,16 @@
 input.onPinTouchEvent(TouchPin.P1, input.buttonEventDown(), function () {
-    radio.sendString("Ich bin Master Steve")
+    radio.sendString("RUHE!!!")
 })
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
 input.onPinTouchEvent(TouchPin.P0, input.buttonEventDown(), function () {
-    radio.sendString("Guten Tag ihr Minimenschen")
+    radio.sendString("Guten Tag")
 })
 input.onPinTouchEvent(TouchPin.P2, input.buttonEventDown(), function () {
-    radio.sendString("Ihr dürft mich Captian nennen")
+    radio.sendString("LOS GEHTS!!!")
 })
 input.onPinTouchEvent(TouchPin.P3, input.buttonEventDown(), function () {
-    radio.sendString("Und jetzt Arbeitet!")
+    radio.sendString("Heute Funken wir")
 })
 radio.setGroup(1)
-basic.forever(function () {
-	
-})
